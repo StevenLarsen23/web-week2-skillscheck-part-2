@@ -11,7 +11,11 @@
 
 //Code here
 
-
+function addMoreDucks(arr){
+    if (arr.length > 4){
+        arr.splice(2, 1, '42 ducks')
+    }return arr
+}
 //////////////////PROBLEM 2////////////////////
 
 //Create a function called cutItOut that takes in an array
@@ -20,7 +24,11 @@
 
 //Code here
 
-
+function cutItOut(arr){
+    if(arr.length > 4){
+        arr.splice(2, 1)
+    }return arr
+}
 //////////////////PROBLEM 3////////////////////
 
 //Create a function called changeName that takes in an array
@@ -28,4 +36,10 @@
 //changeName should return the array.
 
 //Code here
-
+function changeName(arr){
+    for(let i = 0; i < arr.length; i++){
+        if (arr[i] === 'Tolkn'){
+            arr[i] = 'Tolkien'
+        }
+    }return arr
+}
