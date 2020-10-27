@@ -69,6 +69,10 @@ function changeElement(a, i, v){
 //the last element. trim should return the array.
 
 //Code here
-function trim(arr){
-    return arr = arr.pop()
+
+function trim(array){
+    array.pop();
+    return array
+
 }
+
