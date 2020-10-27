@@ -10,7 +10,9 @@
 //use the built-in array method .map
   
   //Code here
-
+function dragonMapper(arr){
+  arr.map(x => x + "...here be dragons")
+}
 
 
 //////////////////PROBLEM 2////////////////////
