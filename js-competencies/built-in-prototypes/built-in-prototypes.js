@@ -10,8 +10,8 @@
 //use the built-in array method .map
   
   //Code here
-function dragonMapper(arr){
-  arr.map(x => x + "...here be dragons")
+function dragonMapper(arr, i){
+  return arr.map(i => (i + "...here be dragons"))
 }
 
 
@@ -23,7 +23,9 @@ function dragonMapper(arr){
 //cookieLoversOnly should return the filtered array.
   
   //Code here
-
+function cookieLoversOnly(arr) {
+  return arr.filter(obj => obj.key === favoriteCookie)
+}
 
 //////////////////PROBLEM 3////////////////////
 
@@ -37,6 +39,9 @@ function dragonMapper(arr){
 
 
   //Code here
+  function changeValue(arr, cb) {
+    
+  }
 
 
 

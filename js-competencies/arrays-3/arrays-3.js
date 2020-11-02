@@ -30,8 +30,9 @@ var sunriseColors = ["yellow", "orange", "red", "pink", "purple", "blue"]
 //Code here
 
 function sunrise (){
-    sunriseColors.splice(0, 1, "green");
-    return sunriseColors
+    let colors = sunriseColors.slice()
+    colors.splice(0, 1, "green"); 
+    return colors
 }
 
 //////////////////PROBLEM 3////////////////////
