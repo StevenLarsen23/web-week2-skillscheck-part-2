@@ -54,7 +54,10 @@ function cookieLoversOnly(arr) {
 //Return the product.
   
   //Code here
-
+function findProduct(arr) {
+ product = arr.reduce( (a,b) => a * b )
+ return product
+}
 
 //////////////////PROBLEM 5////////////////////
 
@@ -71,7 +74,13 @@ function cookieLoversOnly(arr) {
 // cipherize will return: "d"
 
   //Code here
-
+function cipherize(arr, str) {
+  let string = arr.indexOf(str);
+  console.log(string)
+  let character = string.charAt;
+  console.log(character)
+  return character
+}
 
 
 //////////////////PROBLEM 6////////////////////
@@ -82,3 +91,9 @@ function cookieLoversOnly(arr) {
 //apart, reversing it, and putting it back together again.
 
   //Code here
+function reverseMe(str) {
+  let splitString = str.split('');
+  let reverseArray = splitString.reverse();
+  let joinArray = reverseArray.join('');
+  return joinArray
+}

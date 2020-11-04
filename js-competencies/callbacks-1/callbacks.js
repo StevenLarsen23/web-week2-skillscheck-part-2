@@ -18,3 +18,5 @@ function complex(num1, num2) {
 }
 
 //Code here
+let mathResult = math(complex, 2, 3);
+console.log(mathResult)
