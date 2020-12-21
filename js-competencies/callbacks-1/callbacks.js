@@ -2,7 +2,17 @@
 
 // Write a function called stringItOut that takes in an array. Determine if it is an array of numbers or strings and sort it greatest to least accordingly (sort strings alphabetically). Return the array converted into a string using the toString method.
 
-//Code here
+function stringItOut(arr){
+  if (arr.every(i => (typeof i === "string"))){
+    for(let i = 0; i < arr.length; i++){
+      
+    }
+  } else {
+    for(let i = 0; i < arr.length; i++){
+
+    }
+  }
+}
 
 
 //////////////////PROBLEM 2////////////////////
