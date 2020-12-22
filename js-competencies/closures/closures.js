@@ -12,7 +12,7 @@
 function fairytale(heroine, magicItem) {
   let time = "A long time ago";
   return function () {
-    return `${time}` + "," + `${heroine}` + " defeated the evil wizard with " + `${magicItem}`;
+    return `${time}` + ", " + `${heroine}` + " defeated the evil wizard with " + `${magicItem}`;
   };
 }
 
