@@ -5,13 +5,16 @@
 function stringItOut(arr){
   if (arr.every(i => (typeof i === "string"))){
     for(let i = 0; i < arr.length; i++){
+      arr.sort()
+      arr.reverse()
       
     }
   } else {
     for(let i = 0; i < arr.length; i++){
-
+      arr.sort(function(a, b){return b-a})
     }
   }
+  return arr.toString()
 }
 
 
