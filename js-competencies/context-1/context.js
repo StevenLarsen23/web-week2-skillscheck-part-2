@@ -107,7 +107,7 @@ let almostThere = () => descent.remainingElevation.bind(descent)
 // Now, invoke almostThere and save the result to
 // a variable named finalDescent.
 
-let finalDescent = almostThere()
+let finalDescent = almostThere();
 
 
 // Now, uncomment the best answers:
@@ -116,10 +116,10 @@ let finalDescent = almostThere()
 // var valFinalDescent = 21500
 // var valFinalDescent = NaN
 // var valFinalDescent = undefined
-// var valFinalDescent = -21500;
+var valFinalDescent = -21500;
 
 // What was the context of almostThere when you ran it?
-// var contextAlmostThere = 'descent';
+var contextAlmostThere = 'descent';
 // var contextAlmostThere = "window"
 // var contextAlmostThere = "Object"
 // var contextAlmostThere = "context.js"

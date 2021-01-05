@@ -1,9 +1,9 @@
 
 //////////////////PROBLEM 1////////////////////
 
-//Create a prototype for a String called reverse that returns the string but, like, reversed.
+// Create a prototype for a String called reverse that returns the string but, like, reversed.
 
-//Code here
+// Code here
 
 
 //////////////////PROBLEM 2////////////////////
@@ -21,5 +21,5 @@ function Person(name, age) {
   this.qualityOfCode = 5;
 }
 
-//Code here
+// Code here
 
