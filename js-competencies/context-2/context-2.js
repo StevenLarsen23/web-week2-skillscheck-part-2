@@ -40,7 +40,7 @@ var q1Context = 'implicit';
 // Run the function checkOut on book2, and save it to a
 // variable named book2CheckOut.
 
-// let book2CheckOut = checkOut(book2);
+let book2CheckOut = checkOut.call(book2) 
 
 
 // What is the context of running the function checkOut on book1?
@@ -68,7 +68,7 @@ var q3Context = 'default';
 // Using the .apply method on the book1's checkOut function, run it using book2
 // as the argument. Save the result to a variable named book2CheckOut2.
 
-// let book2CheckOut2 = book1CheckOut.apply(book2);
+let book2CheckOut2 = book1.checkOut.apply(book2);
 
 
 // What is the context of applying the book1 method

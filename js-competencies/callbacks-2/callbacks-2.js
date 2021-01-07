@@ -29,6 +29,8 @@
   var greeting;
 
   function timedGreeting(callback){
-   setTimeout(callback, 1000)
+   setTimeout(() => {
+     greeting = callback()
+   }, 1000)
   }
 
